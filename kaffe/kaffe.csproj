@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FlatWhite.cs" />
     <Compile Include="Cortado.cs" />
     <Compile Include="Imælk.cs" />
     <Compile Include="Kaffe.cs" />

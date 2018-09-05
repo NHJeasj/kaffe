@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace kaffe
 {
     /// <summary>
@@ -17,7 +18,7 @@ namespace kaffe
         /// </summary>
         /// <returns></returns>
         public abstract int Pris();
-        
+
         /// <summary>
         /// Angiver hvor stærk kaffe er. 
         /// Sættes default til "stærk"
@@ -33,8 +34,6 @@ namespace kaffe
         /// </summary>
         public int Rabat { get; set; }
 
-
-
         /// <summary>
         /// default ctor
         /// </summary>
@@ -47,7 +46,5 @@ namespace kaffe
         {
             this.Rabat = rabat;
         }
-
-
     }
 }
